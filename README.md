@@ -1,8 +1,7 @@
 # DojoWeather
 DojoWeather
 Using HTML, CSS, and JS recreate the look and functionality of the following website. The Yellow Belt will have a similar set of feature requirements. The cropped images can be downloaded here.
-
-
+![image](https://user-images.githubusercontent.com/88631496/177432667-3aa9744f-11c0-4727-b7be-df4e64f079f6.png)
 
 
 Recreate the look of the Weather Forecast page using HTML and CSS
