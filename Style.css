@@ -1,0 +1,110 @@
+
+
+
+.header {
+    background-color: #9fc5f8;
+    color: #fff;
+}
+
+ .main,.nav {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.list {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav h1 {
+    font-size: 2.5rem;
+}
+
+
+.temperature-information{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #999;
+}
+
+.midlle{
+    display: flex;
+    
+}
+
+.weather{
+  flex:1;
+    text-align: center;
+    background-color: #ddd;
+    padding: 40px 0;
+    margin-right: 20px;
+
+}
+
+
+
+.weather img {
+    border-radius: 50%;
+    width: 156px;
+    margin: 40px 0;
+}
+
+
+
+
+.temperature{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.red {
+    color: #cf2a27;
+}
+
+.blue {
+    color: #2b78e4;
+}
+.last{
+    width: 100%;
+    bottom: 10px;
+  position: fixed;
+}
+
+.cokkies{
+    border: 2px solid black;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 160px;
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+
+.button{
+    color: black;
+    background-color: rgb(113, 113, 229);
+    box-shadow: 4px 4px black;
+    width: 100px;
+    height: 30px;
+}
+

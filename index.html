@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Dojo Weather</title>
+        <link rel="stylesheet" href="Style.css">
+        <script src="Script.js"></script>
+    </head>
+    <body>
+      <div class="header">
+          <div class="nav">
+              <h1>Dojo weather</h1>
+              <div class="list"></div>
+              <p onclick="loading()">Burbank</p>
+              <p onclick="loading()">Chicago</p>
+              <p onclick="loading()">Dallas</p>     
+            </div>   
+          </div><!--end of class nav-->
+      </div> <!--end of class header-->
+
+      <div class="main">
+          <div class="temperature-information">
+              <h2>San jose</h2>
+              
+              <form>
+                 
+                  <label>Show in temperature</label>
+                  <select name="temperature-information" onchange=" change_temperature(this)">
+                      <option>°C</option>
+                      <option>°F</option>
+                  </select>
+              </form>
+            
+          </div>
+
+          <div class="midlle">
+              <div class="weather">
+                  <h1>today</h1>
+                  <img src="assets\some_rain.png">
+                  <p>Some rain</p>
+                  <p class="temperature">
+                      <span class="red" id="scale1">24</span>
+                      <span class="blue" id="scale2">18</span>
+                  </p>
+
+              </div>
+
+              <div class="weather">
+                <h1>tomorrow</h1>
+                <img src="assets\some_sun.png">
+                <p>Some sun</p>
+                <p class="temperature">
+                    <span class="red" id="scale3">27</span>
+                    <span class="blue" id="scale4">19</span>
+                </p>
+              </div>
+              <div class="weather">
+                <h1>Friday</h1>
+                <img src="assets\some_clouds.png">
+                <p>Some cloud</p>
+                <p class="temperature">
+                    <span class="red" id="scale5">21</span>
+                    <span class="blue" id="scale6">16</span>
+                </p>
+              </div>
+              <div class="weather">
+                <h1>Saturday</h1>
+                <img src="assets\some_sun.png">
+                <p>Some sun</p>
+                <p class="temperature">
+                    <span class="red" id="scale7">26</span>
+                    <span class="blue" id="scale8">16</span>
+                </p>
+              </div>
+            </div>
+
+
+              </div>
+
+              <div class="last">
+                  <div class="cokkies">
+                      <img src="assets\cookie.png">
+                      <div class="cookie information">
+                          <h1>Stop! Ckiee time </h1>
+                          <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyze our site traffic. <a href="#">Read more...</a></p>
+                        </p>
+                      </div>
+                      <button class="button" onclick=" remove_cookie()">I accept</button>
+              </div>
+
+      </div> <!--end of class main-->
+
+    </body>
+</html>
